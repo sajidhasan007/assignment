@@ -25,16 +25,16 @@ function App() {
       >
         <TopBar />
         <SecondTopBar />
-        <div className="text-center">
+        <div className="contain-container text-center">
           <h1 className="text-5xl font-normal mb-6">
             Wait ! your order in progress.
           </h1>
-          <p className="text-[#4D5254] text-2xl font-normal mb-[60px]">
+          <p className="text-[#4D5254] text-2xl font-normal mb-3 md:mb-[60px]">
             Lorem ipsum dolor sit amet, consectetur adipiscing{" "}
           </p>
         </div>
 
-        <div className="px-4 py-8  md:px-32">
+        <div className="contain-container py-8">
           <Steps
             current={2}
             items={[

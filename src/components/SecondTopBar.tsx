@@ -1,6 +1,6 @@
 const SecondTopBar = () => {
   return (
-    <div className="px-4 py-8  md:px-32 flex justify-between w-full">
+    <div className="contain-container py-8 flex justify-between w-full">
       <div>
         <img
           src="/brandIcon.svg"

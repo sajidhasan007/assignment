@@ -14,7 +14,7 @@ const TopBar = () => {
           lg={{ span: 24 }}
         >
           <div className="h-12 flex items-center">
-            <div className="px-4  md:px-32 flex justify-between w-full">
+            <div className="contain-container flex justify-between w-full">
               {topbarData.map((item: { icon: string; title: string }) => (
                 <div className="flex gap-2 items-center">
                   <img src={item.icon} alt="icon" width={22} height={22} />

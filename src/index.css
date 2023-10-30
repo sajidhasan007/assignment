@@ -2,6 +2,12 @@
 @tailwind components;
 @tailwind utilities;
 
+.contain-container {
+  max-width: 1245px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
 .swiper-button-next,
 .swiper-button-prev {
   color: white;
@@ -25,14 +31,33 @@
   text-transform: capitalize;
 }
 
+.description-image {
+  height: 88px;
+  width: 88px;
+}
+
 @media only screen and (max-width: 768px) {
+  .contain-container {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
   .brand-image-height-width {
     width: 106px;
     height: 20px;
   }
 
+  .description-image {
+    height: 44px;
+    width: 44px;
+  }
+
   .side-image-height-gwidth {
     width: 101px;
     height: 16px;
+  }
+
+  .horizontal-line {
+    height: 1;
+    background-color: #cfcfcf;
   }
 }
