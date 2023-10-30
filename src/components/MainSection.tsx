@@ -25,7 +25,7 @@ const MainSection = () => {
             <img src="./mainImage.svg" alt="" height={591} className="w-full" />
             <div className="hidden md:block">
               <div className="bg-white p-6 flex gap-3 ">
-                <div>
+                <div className="mt-12">
                   <div className="flex gap-4">
                     <div className="mb-[18px] flex gap-3 items-center">
                       <img

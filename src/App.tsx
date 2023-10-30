@@ -3,6 +3,7 @@ import TopBar from "./components/TopBar";
 import SecondTopBar from "./components/SecondTopBar";
 import MainSection from "./components/MainSection";
 import { Footer } from "./components";
+
 function App() {
   return (
     <div>
